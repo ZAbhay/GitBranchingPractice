@@ -1,0 +1,29 @@
+step 1: Create a new repository in github
+
+step 2: Open the terminal
+
+step 3: Set local project as current directory
+
+step 4: Initialize the local directory as git repository
+  command : git init 
+
+step 5: Add the files in your new local repository. Your files will now be staged for their first commit.
+  command: git add . 
+
+ command : git status 
+It will show all files staged for commit.
+
+Step 6: Commit the files that you have staged in your local repository
+command: git commit -m "First Commit"
+
+Step 7: Copy remote repository url
+
+Step 8: Add the url for remote repository where your local repository will be pushed.
+
+command : git remote add origin remote_url
+
+Step 9: push the code in your local repository to github
+
+command: git push -u origin master
+
+Step 10: View your files in your github repository.

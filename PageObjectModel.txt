@@ -1,0 +1,10 @@
+Page Object Model---
+
+It is a design pattern in test automation. Under this model there is a separate class in test automation project created that describes different pages of application under test. These classes serve as interfaces to pages in our application. They contain different locators and methods. These methods are then used in actual test classes.
+
+Advantages of Page Object Model:-
+1.Separation of Operations and Verifications.
+2. Reusable code.
+3 Realistic Method Names.
+4. Short and optimized test cases.
+5. Easy Maintenance.

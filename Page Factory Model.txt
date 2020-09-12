@@ -1,0 +1,6 @@
+Page Factory is in-built page object model concept for selenium webdriver. With the help of Page Factory class, @Findby annotations are used to find webelements.
+Here we use reference to already initiated elements instead of findElements. In this way, this element can be used in different methods without duplicating "driver.findElement" code. 
+But all these elements needs to be initialized before use. Like this, 
+GoogleSearchPage page = PageFactory.initElements(driver, GoogleSearchPage.class);
+
+even if we use one element on the page, we initialize all elements. This is not problem with static elements. If our page contains dynamic elements which loads after the page is opened, we may start seeing StaleElementException, Null pointer exceptions.
